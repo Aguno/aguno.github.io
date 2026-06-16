@@ -81,7 +81,7 @@ cv:
           - Steven Euijong Whang
         journal: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
         date: '2025-06-23'
-        doi: 10.1145/3715275.3732105
+        url: https://dl.acm.org/doi/full/10.1145/3715275.3732105
         summary: "Shows that routine data-engineering choices can manipulate SHAP feature importance for the same model, with direct implications for model risk and fair lending."
 
       - title: "XClusters: Explainability-first Clustering"
@@ -99,7 +99,7 @@ cv:
           - Steven Euijong Whang
         journal: "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)"
         date: '2021-03-04'
-        doi: 10.1007/978-3-030-71055-2_8
+        url: https://link.springer.com/chapter/10.1007/978-3-030-71055-2_8
         summary: "On the difficulty of producing useful visualizations in an open-world setting where the relevant datasets are not known in advance."
 
     Skills:
