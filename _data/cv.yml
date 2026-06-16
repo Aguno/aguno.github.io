@@ -38,7 +38,7 @@ cv:
       - company: New York University (NYU), Center for Responsible AI
         position: Postdoctoral Researcher
         start_date: 2026-09
-        end_date: Present
+        end_date: present
         location: Brooklyn, NY, USA
         highlights:
           - "Conducting advanced research on the interpretability and safety of machine learning models under the supervision of Prof. Julia Stoyanovich."
@@ -104,21 +104,12 @@ cv:
 
     Skills:
       - name: Research
-        keywords:
-          - "Explainable AI (XAI)"
-          - "SHAP / feature attribution"
-          - "Explanation multiplicity and robustness"
-          - "Fairness and responsible AI"
-          - "Explainable clustering"
+        details: "Explainable AI (XAI), SHAP / feature attribution, Explanation multiplicity and robustness, Fairness and responsible AI, Explainable clustering"
       - name: Technical
-        keywords:
-          - "Python"
-          - "PySpark"
-          - "Machine learning"
-          - "Data visualization"
+        details: "Python, PySpark, Machine learning, Data visualization"
 
     Languages:
-      - language: Korean
-        fluency: Native speaker
-      - language: English
-        fluency: Fluent
+      - name: Korean
+        details: Native speaker
+      - name: English
+        details: Fluent
