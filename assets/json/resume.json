@@ -107,6 +107,14 @@
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "2019-08-31"
+    },
+    {
+      "institution": "Langley High School",
+      "location": "Fairfax County, VA, USA",
+      "area": "General Studies",
+      "studyType": "High School Diploma",
+      "startDate": "2010-09-01",
+      "endDate": "2013-06-30"
     }
   ],
   "skills": [
