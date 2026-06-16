@@ -1,0 +1,123 @@
+cv:
+  name: Hyunseung Hwang
+  location: Daejeon, South Korea
+  email: aguno94@gmail.com
+  website: https://aguno.github.io
+  social_networks:
+    - network: GitHub
+      username: aguno
+    - network: LinkedIn
+      username: hyunseung-daniel-hwang-35baa7176
+  sections:
+    Summary:
+      - "Incoming postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a 2026 KAIST Ph.D. My research stress-tests the explanation methods used to audit high-stakes models, showing that tools like SHAP are sensitive to data-engineering choices and to internal randomness, with direct implications for fairness, model risk, and trustworthy ML in domains such as credit and lending. I work on responsible AI, model transparency, and the robustness of AI systems, in both research and applied industry settings."
+
+    Education:
+      - institution: KAIST
+        area: Electrical Engineering
+        degree: PhD
+        start_date: 2021-09
+        end_date: 2026-08
+        location: Daejeon, South Korea
+        highlights:
+          - "Advisor: Steven Euijong Whang (Data Intelligence Lab)"
+          - "Dissertation: Enhancing Explainability in Machine Learning — Explainable Clustering and Explanation Multiplicity"
+
+      - institution: KAIST
+        area: Electrical Engineering
+        degree: MS
+        start_date: 2019-09
+        end_date: 2021-08
+        location: Daejeon, South Korea
+
+      - institution: KAIST
+        area: Computer Science
+        degree: BS
+        start_date: 2013-09
+        end_date: 2019-08
+        location: Daejeon, South Korea
+
+      - institution: Langley High School
+        degree: High School Diploma
+        start_date: 2010-09
+        end_date: 2013-06
+        location: Fairfax County, VA, USA
+
+    Experience:
+      - company: Global Frontier Lab
+        position: Research Collaborator
+        start_date: 2025-09
+        end_date: 2025-12
+        location: Daejeon, South Korea
+        highlights:
+          - "Collaborated with Julia Stoyanovich's Responsible AI group at NYU."
+          - "Investigated the sensitivity and robustness of AI explainability techniques to deliver safe, confident explanations to stakeholders."
+
+      - company: Naver
+        position: Research Intern
+        start_date: 2019-06
+        end_date: 2019-08
+        location: Seongnam, South Korea
+        highlights:
+          - "Implemented community detection (Girvan–Newman) on PySpark to cluster unsupervised data for video recommendation."
+
+      - company: Kiswe Mobile
+        position: Software Engineering Intern
+        start_date: 2018-06
+        end_date: 2018-08
+        highlights:
+          - "Built Android features for a live video-streaming service using Android Studio."
+          - "Updated the application to meet Android Oreo (8.0+) requirements."
+
+    Publications:
+      - title: "SHAP-based Explanations are Sensitive to Feature Representation"
+        authors:
+          - Hyunseung Hwang
+          - Andrew Bell
+          - Joao Fonseca
+          - Venetia Pliatsika
+          - Julia Stoyanovich
+          - Steven Euijong Whang
+        journal: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+        date: '2025-06-23'
+        doi: 10.1145/3715275.3732105
+        summary: "Shows that routine data-engineering choices can manipulate SHAP feature importance for the same model, with direct implications for model risk and fair lending."
+
+      - title: "XClusters: Explainability-first Clustering"
+        authors:
+          - Hyunseung Hwang
+          - Steven Euijong Whang
+        journal: "AAAI Conference on Artificial Intelligence (AAAI)"
+        date: '2023-06-26'
+        url: https://arxiv.org/abs/2209.10956
+        summary: "Makes explainability a first-class objective of clustering via a difference-of-monotonic-functions formulation; evaluated on a real credit-card dataset."
+
+      - title: "Open-World COVID-19 Data Visualization"
+        authors:
+          - Hyunseung Hwang
+          - Steven Euijong Whang
+        journal: "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)"
+        date: '2021-03-04'
+        doi: 10.1007/978-3-030-71055-2_8
+        summary: "On the difficulty of producing useful visualizations in an open-world setting where the relevant datasets are not known in advance."
+
+    Skills:
+      - name: Research
+        keywords:
+          - "Explainable AI (XAI)"
+          - "SHAP / feature attribution"
+          - "Explanation multiplicity and robustness"
+          - "Fairness and responsible AI"
+          - "Explainable clustering"
+      - name: Technical
+        keywords:
+          - "Python"
+          - "PySpark"
+          - "Machine learning"
+          - "Data visualization"
+
+    Languages:
+      - language: Korean
+        fluency: Native speaker
+      - language: English
+        fluency: Fluent
