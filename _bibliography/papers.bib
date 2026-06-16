@@ -1,18 +1,8 @@
-% ----------------------------------------------------------------------------
-% Hyunseung Hwang — publications
-% Drop this in at: _bibliography/papers.bib  (replace the example file)
-%
-% al-folio button fields used below:
-%   selected={true}   -> shows on the homepage "selected papers" list
-%   bibtex_show={true}-> adds a "Bib" button
-%   arxiv={ID}        -> adds an "arXiv" button (give ID only, link is auto-built)
-%   code={URL}        -> adds a "Code" button
-%   pdf={file|URL}    -> adds a "PDF" button (bare filename assumed under /assets/pdf/)
-%   abstract={...}    -> adds an expandable "Abs" button
-%
-% Summaries below are written to read for BOTH responsible-AI / safety roles
-% and financial-services roles (model risk management, credit risk, fair lending).
-% ----------------------------------------------------------------------------
+% Hyunseung Hwang — publications  ->  put this at _bibliography/papers.bib
+% al-folio button fields: selected={true} (homepage list), bibtex_show={true} (Bib button),
+% arxiv={ID}, code={URL}, pdf={file or URL}, abstract={...} (expandable Abs button).
+% IMPORTANT: never put an at-sign inside a comment in this file — the BibTeX parser
+% reads it as the start of a real entry and the build fails.
 
 @inproceedings{hwang2025shap,
   abbr={FAccT},
@@ -24,7 +14,7 @@
   doi={10.1145/3715275.3732105},
   arxiv={2505.08345},
   code={https://github.com/Aguno/Shap-Attack},
-  abstract={Local feature-based explanations such as SHAP are central to validating, documenting, and contesting high-stakes models -- including the credit and lending classifiers used throughout financial services. We show that routine data-engineering choices, such as how a continuous feature like age is bucketed or how race is encoded, can substantially shift SHAP feature-importance rankings for the very same model, and that this sensitivity can be exploited to make a discriminatory model appear neutral. The findings bear directly on model risk management, fair-lending and adverse-action compliance, and whether a feature-importance explanation can be trusted at all.},
+  abstract={Local feature-based explanations such as SHAP are central to validating, documenting, and contesting high-stakes models, including the credit and lending classifiers used throughout financial services. We show that routine data-engineering choices, such as how a continuous feature like age is bucketed or how race is encoded, can substantially shift SHAP feature-importance rankings for the same model, and that this can be exploited to make a discriminatory model appear neutral. The findings bear directly on model risk management, fair-lending and adverse-action compliance, and whether a feature-importance explanation can be trusted at all.},
   selected={true},
   bibtex_show={true}
 }
@@ -36,7 +26,7 @@
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2023},
   arxiv={2209.10956},
-  abstract={Most explainable-clustering methods explain clusters only after the fact. XClusters instead makes explainability a first-class objective of the clustering itself, jointly minimizing cluster distortion and the size of the decision tree that explains the clusters -- which matters wherever segments must be both accurate and defensible, as in customer and credit-risk segmentation (we evaluate on a real credit-card dataset). We show the objective is a difference of monotonic functions and give an efficient branch-and-bound algorithm that trades off accuracy against explanation simplicity.},
+  abstract={Most explainable-clustering methods explain clusters only after the fact. XClusters instead makes explainability a first-class objective of the clustering itself, jointly minimizing cluster distortion and the size of the decision tree that explains the clusters, which matters wherever segments must be both accurate and defensible, as in customer and credit-risk segmentation (we evaluate on a real credit-card dataset). We show the objective is a difference of monotonic functions and give an efficient branch-and-bound algorithm that trades off accuracy against explanation simplicity.},
   selected={true},
   bibtex_show={true}
 }
@@ -49,24 +39,6 @@
   pages={81--84},
   year={2021},
   doi={10.1007/978-3-030-71055-2_8},
-  abstract={An extended abstract, from KAIST's broader COVID-19 response, on the practical difficulty of producing useful visualizations in an open-world setting where it is not even clear up front which datasets exist or are relevant -- a recurring obstacle in any data-driven decision pipeline.},
+  abstract={An extended abstract, from KAIST's broader COVID-19 response, on the practical difficulty of producing useful visualizations in an open-world setting where it is not even clear up front which datasets exist or are relevant, a recurring obstacle in any data-driven decision pipeline.},
   bibtex_show={true}
 }
-
-% ----------------------------------------------------------------------------
-% NeurIPS 2026 submission (intra-method explanation multiplicity:
-% stochasticity within SHAP across background-sampling seeds). Strong angle for
-% both safety and finance -- if the same model yields different explanations run
-% to run, that is a reproducibility / model-validation problem for regulated
-% decisions. Under review -- uncomment and fill in once public.
-% ----------------------------------------------------------------------------
-% @article{hwang2026multiplicity,
-%   abbr={Preprint},
-%   title={TODO},
-%   author={Hwang, Hyunseung and TODO and Whang, Steven Euijong},
-%   year={2026},
-%   arxiv={TODO},
-%   abstract={TODO -- frame around stability/reproducibility of explanations and model risk.},
-%   selected={true},
-%   bibtex_show={true}
-% }
