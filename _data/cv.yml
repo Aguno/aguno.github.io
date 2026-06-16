@@ -65,6 +65,7 @@ cv:
         position: Software Engineering Intern
         start_date: 2018-06
         end_date: 2018-08
+        location: Murray Hill, NJ, USA
         highlights:
           - "Built Android features for a live video-streaming service using Android Studio."
           - "Updated the application to meet Android Oreo (8.0+) requirements."
