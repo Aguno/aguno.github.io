@@ -7,9 +7,10 @@
     "url": "https://aguno.github.io",
     "summary": "Postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a KAIST Ph.D. I stress-test the explanation methods practitioners rely on to audit high-stakes models, exposing their hidden vulnerabilities and engineering more transparent, robust alternatives. My work spans from developing explainability-first clustering frameworks to demonstrating how tools like SHAP are highly sensitive to data-engineering choices. I aim to build trustworthy AI systems where model risk is strictly managed, ensuring that automated decisions in critical domains—from AI alignment to financial services—are safe, accountable, and highly confident.",
     "location": {
+      "address": "Daejeon, South Korea",
       "city": "Daejeon",
-      "countryCode": "KR",
-      "region": ""
+      "region": "South Korea",
+      "countryCode": "KR"
     },
     "profiles": [
       {
@@ -33,6 +34,7 @@
     {
       "name": "New York University (NYU), Center for Responsible AI",
       "position": "Postdoctoral Researcher",
+      "location": "Brooklyn, NY, USA",
       "startDate": "2026-06-01",
       "endDate": "",
       "summary": "",
@@ -44,6 +46,7 @@
     {
       "name": "Global Frontier Lab",
       "position": "Research Collaborator",
+      "location": "Daejeon, South Korea",
       "startDate": "2025-09-01",
       "endDate": "2025-12-31",
       "summary": "",
@@ -55,6 +58,7 @@
     {
       "name": "Naver",
       "position": "Research Intern",
+      "location": "Seongnam, South Korea",
       "startDate": "2019-06-01",
       "endDate": "2019-08-31",
       "summary": "",
@@ -65,6 +69,7 @@
     {
       "name": "Kiswe Mobile",
       "position": "Software Engineering Intern",
+      "location": "Murray Hill, NJ, USA",
       "startDate": "2018-06-01",
       "endDate": "2018-08-31",
       "summary": "",
