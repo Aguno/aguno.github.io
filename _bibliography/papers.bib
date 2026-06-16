@@ -1,115 +1,72 @@
----
----
+% ----------------------------------------------------------------------------
+% Hyunseung Hwang — publications
+% Drop this in at: _bibliography/papers.bib  (replace the example file)
+%
+% al-folio button fields used below:
+%   selected={true}   -> shows on the homepage "selected papers" list
+%   bibtex_show={true}-> adds a "Bib" button
+%   arxiv={ID}        -> adds an "arXiv" button (give ID only, link is auto-built)
+%   code={URL}        -> adds a "Code" button
+%   pdf={file|URL}    -> adds a "PDF" button (bare filename assumed under /assets/pdf/)
+%   abstract={...}    -> adds an expandable "Abs" button
+%
+% Summaries below are written to read for BOTH responsible-AI / safety roles
+% and financial-services roles (model risk management, credit risk, fair lending).
+% ----------------------------------------------------------------------------
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@inproceedings{hwang2025shap,
+  abbr={FAccT},
+  title={SHAP-based Explanations are Sensitive to Feature Representation},
+  author={Hwang, Hyunseung and Bell, Andrew and Fonseca, Joao and Pliatsika, Venetia and Stoyanovich, Julia and Whang, Steven Euijong},
+  booktitle={Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  pages={1588--1601},
+  year={2025},
+  doi={10.1145/3715275.3732105},
+  arxiv={2505.08345},
+  code={https://github.com/Aguno/Shap-Attack},
+  abstract={Local feature-based explanations such as SHAP are central to validating, documenting, and contesting high-stakes models -- including the credit and lending classifiers used throughout financial services. We show that routine data-engineering choices, such as how a continuous feature like age is bucketed or how race is encoded, can substantially shift SHAP feature-importance rankings for the very same model, and that this sensitivity can be exploited to make a discriminatory model appear neutral. The findings bear directly on model risk management, fair-lending and adverse-action compliance, and whether a feature-importance explanation can be trusted at all.},
+  selected={true},
+  bibtex_show={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{hwang2023xclusters,
+  abbr={AAAI},
+  title={XClusters: Explainability-first Clustering},
+  author={Hwang, Hyunseung and Whang, Steven Euijong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2023},
+  arxiv={2209.10956},
+  abstract={Most explainable-clustering methods explain clusters only after the fact. XClusters instead makes explainability a first-class objective of the clustering itself, jointly minimizing cluster distortion and the size of the decision tree that explains the clusters -- which matters wherever segments must be both accurate and defensible, as in customer and credit-risk segmentation (we evaluate on a real credit-card dataset). We show the objective is a difference of monotonic functions and give an efficient branch-and-bound algorithm that trades off accuracy against explanation simplicity.},
+  selected={true},
+  bibtex_show={true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{hwang2021covid,
+  abbr={DMAH},
+  title={Open-World COVID-19 Data Visualization},
+  author={Hwang, Hyunseung and Whang, Steven Euijong},
+  booktitle={VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)},
+  pages={81--84},
+  year={2021},
+  doi={10.1007/978-3-030-71055-2_8},
+  abstract={An extended abstract, from KAIST's broader COVID-19 response, on the practical difficulty of producing useful visualizations in an open-world setting where it is not even clear up front which datasets exist or are relevant -- a recurring obstacle in any data-driven decision pipeline.},
+  bibtex_show={true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
+% ----------------------------------------------------------------------------
+% NeurIPS 2026 submission (intra-method explanation multiplicity:
+% stochasticity within SHAP across background-sampling seeds). Strong angle for
+% both safety and finance -- if the same model yields different explanations run
+% to run, that is a reproducibility / model-validation problem for regulated
+% decisions. Under review -- uncomment and fill in once public.
+% ----------------------------------------------------------------------------
+% @article{hwang2026multiplicity,
+%   abbr={Preprint},
+%   title={TODO},
+%   author={Hwang, Hyunseung and TODO and Whang, Steven Euijong},
+%   year={2026},
+%   arxiv={TODO},
+%   abstract={TODO -- frame around stability/reproducibility of explanations and model risk.},
+%   selected={true},
+%   bibtex_show={true}
+% }
