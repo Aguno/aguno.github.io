@@ -33,7 +33,7 @@
     {
       "name": "New York University (NYU), Center for Responsible AI",
       "position": "Postdoctoral Researcher",
-      "startDate": "2026-09-01",
+      "startDate": "2026-06-01",
       "endDate": "",
       "summary": "",
       "highlights": [
@@ -76,7 +76,7 @@
   ],
   "education": [
     {
-      "institution": "KAIST (Korea Advanced Institute of Science and Technology)",
+      "institution": "KAIST",
       "area": "Electrical Engineering",
       "studyType": "Ph.D.",
       "startDate": "2021-09-01",
@@ -87,15 +87,15 @@
       ]
     },
     {
-      "institution": "KAIST (Korea Advanced Institute of Science and Technology)",
+      "institution": "KAIST",
       "area": "Electrical Engineering",
       "studyType": "M.S.",
       "startDate": "2019-09-01",
       "endDate": "2021-08-31"
     },
     {
-      "institution": "KAIST (Korea Advanced Institute of Science and Technology)",
-      "area": "Computer Science (School of Computing)",
+      "institution": "KAIST",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "2019-08-31"
@@ -106,8 +106,8 @@
       "name": "SHAP-based Explanations are Sensitive to Feature Representation",
       "publisher": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
       "releaseDate": "2025-06-23",
-      "url": "https://doi.org/10.1145/3715275.3732105",
-      "summary": "With A. Bell, J. Fonseca, V. Pliatsika, J. Stoyanovich, and S. E. Whang. Shows that routine data-engineering choices can manipulate SHAP feature importance, with implications for model risk and fair lending."
+      "url": "https://dl.acm.org/doi/full/10.1145/3715275.3732105",
+      "summary": "With A. Bell, J. Fonseca, V. Pliatsika, J. Stoyanovich, and S. E. Whang. Shows that routine data-engineering choices can manipulate SHAP feature importance for the same model, with direct implications for model risk and fair lending."
     },
     {
       "name": "XClusters: Explainability-first Clustering",
@@ -120,7 +120,7 @@
       "name": "Open-World COVID-19 Data Visualization",
       "publisher": "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)",
       "releaseDate": "2021-03-04",
-      "url": "https://doi.org/10.1007/978-3-030-71055-2_8",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-71055-2_8",
       "summary": "With S. E. Whang. On the difficulty of producing useful visualizations in an open-world setting where the relevant datasets are not known in advance."
     }
   ],
@@ -130,8 +130,8 @@
       "keywords": [
         "Explainable AI (XAI)",
         "SHAP / feature attribution",
-        "Explanation multiplicity & robustness",
-        "Fairness & responsible AI",
+        "Explanation multiplicity and robustness",
+        "Fairness and responsible AI",
         "Explainable clustering"
       ]
     },
