@@ -5,5 +5,5 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: assets/pdf/example_pdf.pdf
-cv_format: rendercv
+cv_format: jsonresume
 ---
