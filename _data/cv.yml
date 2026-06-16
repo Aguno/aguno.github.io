@@ -9,9 +9,6 @@ cv:
     - network: LinkedIn
       username: hyunseung-daniel-hwang-35baa7176
   sections:
-    Summary:
-      - "Incoming postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a 2026 KAIST Ph.D. My research stress-tests the explanation methods used to audit high-stakes models, showing that tools like SHAP are sensitive to data-engineering choices and to internal randomness, with direct implications for fairness, model risk, and trustworthy ML in domains such as credit and lending. I work on responsible AI, model transparency, and the robustness of AI systems, in both research and applied industry settings."
-
     Education:
       - institution: KAIST
         area: Electrical Engineering
@@ -37,13 +34,16 @@ cv:
         end_date: 2019-08
         location: Daejeon, South Korea
 
-      - institution: Langley High School
-        degree: High School Diploma
-        start_date: 2010-09
-        end_date: 2013-06
-        location: Fairfax County, VA, USA
-
     Experience:
+      - company: New York University (NYU), Center for Responsible AI
+        position: Postdoctoral Researcher
+        start_date: 2026-09
+        end_date: Present
+        location: Brooklyn, NY, USA
+        highlights:
+          - "Conducting advanced research on the interpretability and safety of machine learning models under the supervision of Prof. Julia Stoyanovich."
+          - "Stress-testing explanation models to ensure safe, confident, and defensible outputs for end-users and stakeholders in high-stakes domains."
+
       - company: Global Frontier Lab
         position: Research Collaborator
         start_date: 2025-09
