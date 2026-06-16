@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Hyunseung Hwang",
-    "label": "Incoming Postdoctoral Researcher · NYU Center for Responsible AI",
+    "label": "Postdoctoral Researcher · NYU Center for Responsible AI",
     "image": "",
     "email": "aguno94@gmail.com",
     "url": "https://aguno.github.io",
-    "summary": "Incoming postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a 2026 KAIST Ph.D. My research stress-tests the explanation methods used to audit high-stakes models, showing that tools like SHAP are sensitive to data-engineering choices and to internal randomness, with direct implications for fairness, model risk, and trustworthy ML in domains such as credit and lending. I work on responsible AI, model transparency, and the robustness of AI systems, in both research and applied industry settings.",
+    "summary": "Postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a KAIST Ph.D. I stress-test the explanation methods practitioners rely on to audit high-stakes models, exposing their hidden vulnerabilities and engineering more transparent, robust alternatives. My work spans from developing explainability-first clustering frameworks to demonstrating how tools like SHAP are highly sensitive to data-engineering choices. I aim to build trustworthy AI systems where model risk is strictly managed, ensuring that automated decisions in critical domains—from AI alignment to financial services—are safe, accountable, and highly confident.",
     "location": {
       "city": "Daejeon",
       "countryCode": "KR",
@@ -30,6 +30,17 @@
     ]
   },
   "work": [
+    {
+      "name": "New York University (NYU), Center for Responsible AI",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2026-09-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Conducting advanced research on the interpretability and safety of machine learning models under the supervision of Prof. Julia Stoyanovich.",
+        "Stress-testing explanation models to ensure safe, confident, and defensible outputs for end-users and stakeholders in high-stakes domains."
+      ]
+    },
     {
       "name": "Global Frontier Lab",
       "position": "Research Collaborator",
@@ -88,12 +99,6 @@
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "2019-08-31"
-    },
-    {
-      "institution": "Langley High School, Fairfax County, VA, USA",
-      "studyType": "High School Diploma",
-      "startDate": "2010-09-01",
-      "endDate": "2013-08-31"
     }
   ],
   "publications": [
