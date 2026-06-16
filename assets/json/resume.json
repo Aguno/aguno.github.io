@@ -7,10 +7,10 @@
     "url": "https://aguno.github.io",
     "summary": "Postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a KAIST Ph.D. I stress-test the explanation methods practitioners rely on to audit high-stakes models, exposing their hidden vulnerabilities and engineering more transparent, robust alternatives. My work spans from developing explainability-first clustering frameworks to demonstrating how tools like SHAP are highly sensitive to data-engineering choices. I aim to build trustworthy AI systems where model risk is strictly managed, ensuring that automated decisions in critical domains—from AI alignment to financial services—are safe, accountable, and highly confident.",
     "location": {
-      "address": "Daejeon, South Korea",
-      "city": "Daejeon",
-      "region": "South Korea",
-      "countryCode": "KR"
+      "address": "Brooklyn, NY, USA",
+      "city": "Brooklyn",
+      "region": "NY",
+      "countryCode": "US"
     },
     "profiles": [
       {
@@ -82,6 +82,7 @@
   "education": [
     {
       "institution": "KAIST",
+      "location": "Daejeon, South Korea",
       "area": "Electrical Engineering",
       "studyType": "Ph.D.",
       "startDate": "2021-09-01",
@@ -93,6 +94,7 @@
     },
     {
       "institution": "KAIST",
+      "location": "Daejeon, South Korea",
       "area": "Electrical Engineering",
       "studyType": "M.S.",
       "startDate": "2019-09-01",
@@ -100,33 +102,11 @@
     },
     {
       "institution": "KAIST",
+      "location": "Daejeon, South Korea",
       "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "2019-08-31"
-    }
-  ],
-  "publications": [
-    {
-      "name": "SHAP-based Explanations are Sensitive to Feature Representation",
-      "publisher": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
-      "releaseDate": "2025-06-23",
-      "url": "https://dl.acm.org/doi/full/10.1145/3715275.3732105",
-      "summary": "With A. Bell, J. Fonseca, V. Pliatsika, J. Stoyanovich, and S. E. Whang. Shows that routine data-engineering choices can manipulate SHAP feature importance for the same model, with direct implications for model risk and fair lending."
-    },
-    {
-      "name": "XClusters: Explainability-first Clustering",
-      "publisher": "AAAI Conference on Artificial Intelligence (AAAI)",
-      "releaseDate": "2023-06-26",
-      "url": "https://arxiv.org/abs/2209.10956",
-      "summary": "With S. E. Whang. Makes explainability a first-class objective of clustering via a difference-of-monotonic-functions formulation; evaluated on a real credit-card dataset."
-    },
-    {
-      "name": "Open-World COVID-19 Data Visualization",
-      "publisher": "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)",
-      "releaseDate": "2021-03-04",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-030-71055-2_8",
-      "summary": "With S. E. Whang. On the difficulty of producing useful visualizations in an open-world setting where the relevant datasets are not known in advance."
     }
   ],
   "skills": [
