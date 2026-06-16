@@ -1,115 +1,173 @@
-cv:
-  name: Hyunseung Hwang
-  location: Daejeon, South Korea
-  email: aguno94@gmail.com
-  website: https://aguno.github.io
-  social_networks:
-    - network: GitHub
-      username: aguno
-    - network: LinkedIn
-      username: hyunseung-daniel-hwang-35baa7176
-  sections:
-    Education:
-      - institution: KAIST
-        area: Electrical Engineering
-        degree: PhD
-        start_date: 2021-09
-        end_date: 2026-08
-        location: Daejeon, South Korea
-        highlights:
-          - "Advisor: Steven Euijong Whang (Data Intelligence Lab)"
-          - "Dissertation: Enhancing Explainability in Machine Learning — Explainable Clustering and Explanation Multiplicity"
-
-      - institution: KAIST
-        area: Electrical Engineering
-        degree: MS
-        start_date: 2019-09
-        end_date: 2021-08
-        location: Daejeon, South Korea
-
-      - institution: KAIST
-        area: Computer Science
-        degree: BS
-        start_date: 2013-09
-        end_date: 2019-08
-        location: Daejeon, South Korea
-
-    Experience:
-      - company: New York University (NYU), Center for Responsible AI
-        position: Postdoctoral Researcher
-        start_date: 2026-06
-        end_date: present
-        location: Brooklyn, NY, USA
-        highlights:
-          - "Conducting advanced research on the interpretability and safety of machine learning models under the supervision of Prof. Julia Stoyanovich."
-          - "Stress-testing explanation models to ensure safe, confident, and defensible outputs for end-users and stakeholders in high-stakes domains."
-
-      - company: Global Frontier Lab
-        position: Research Collaborator
-        start_date: 2025-09
-        end_date: 2025-12
-        location: Daejeon, South Korea
-        highlights:
-          - "Collaborated with Julia Stoyanovich's Responsible AI group at NYU."
-          - "Investigated the sensitivity and robustness of AI explainability techniques to deliver safe, confident explanations to stakeholders."
-
-      - company: Naver
-        position: Research Intern
-        start_date: 2019-06
-        end_date: 2019-08
-        location: Seongnam, South Korea
-        highlights:
-          - "Implemented community detection (Girvan–Newman) on PySpark to cluster unsupervised data for video recommendation."
-
-      - company: Kiswe Mobile
-        position: Software Engineering Intern
-        start_date: 2018-06
-        end_date: 2018-08
-        location: Murray Hill, NJ, USA
-        highlights:
-          - "Built Android features for a live video-streaming service using Android Studio."
-          - "Updated the application to meet Android Oreo (8.0+) requirements."
-
-    Publications:
-      - title: "SHAP-based Explanations are Sensitive to Feature Representation"
-        authors:
-          - Hyunseung Hwang
-          - Andrew Bell
-          - Joao Fonseca
-          - Venetia Pliatsika
-          - Julia Stoyanovich
-          - Steven Euijong Whang
-        journal: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
-        date: '2025-06-23'
-        doi: 10.1145/3715275.3732105
-        summary: "Shows that routine data-engineering choices can manipulate SHAP feature importance for the same model, with direct implications for model risk and fair lending."
-
-      - title: "XClusters: Explainability-first Clustering"
-        authors:
-          - Hyunseung Hwang
-          - Steven Euijong Whang
-        journal: "AAAI Conference on Artificial Intelligence (AAAI)"
-        date: '2023-06-26'
-        url: https://arxiv.org/abs/2209.10956
-        summary: "Makes explainability a first-class objective of clustering via a difference-of-monotonic-functions formulation; evaluated on a real credit-card dataset."
-
-      - title: "Open-World COVID-19 Data Visualization"
-        authors:
-          - Hyunseung Hwang
-          - Steven Euijong Whang
-        journal: "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)"
-        date: '2021-03-04'
-        doi: 10.1007/978-3-030-71055-2_8
-        summary: "On the difficulty of producing useful visualizations in an open-world setting where the relevant datasets are not known in advance."
-
-    Skills:
-      - label: Research
-        details: "Explainable AI (XAI), SHAP / feature attribution, Explanation multiplicity and robustness, Fairness and responsible AI, Explainable clustering"
-      - label: Technical
-        details: "Python, PySpark, Machine learning, Data visualization"
-
-    Languages:
-      - label: Korean
-        details: Native speaker
-      - label: English
-        details: Fluent
+{
+  "basics": {
+    "name": "Hyunseung Hwang",
+    "label": "Postdoctoral Researcher · NYU Center for Responsible AI",
+    "image": "",
+    "email": "aguno94@gmail.com",
+    "url": "https://aguno.github.io",
+    "summary": "Postdoctoral researcher at NYU's Center for Responsible AI (with Julia Stoyanovich) and a KAIST Ph.D. I stress-test the explanation methods practitioners rely on to audit high-stakes models, exposing their hidden vulnerabilities and engineering more transparent, robust alternatives. My work spans from developing explainability-first clustering frameworks to demonstrating how tools like SHAP are highly sensitive to data-engineering choices. I aim to build trustworthy AI systems where model risk is strictly managed, ensuring that automated decisions in critical domains—from AI alignment to financial services—are safe, accountable, and highly confident.",
+    "location": {
+      "address": "Brooklyn, NY, USA",
+      "city": "Brooklyn",
+      "region": "NY",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "aguno",
+        "url": "https://github.com/aguno"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "hyunseung-daniel-hwang-35baa7176",
+        "url": "https://www.linkedin.com/in/hyunseung-daniel-hwang-35baa7176"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Hyunseung Hwang",
+        "url": "https://scholar.google.com/citations?user=awq98_YAAAAJ"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "New York University (NYU), Center for Responsible AI",
+      "position": "Postdoctoral Researcher",
+      "location": "Brooklyn, NY, USA",
+      "startDate": "2026-06-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Conducting advanced research on the interpretability and safety of machine learning models under the supervision of Prof. Julia Stoyanovich.",
+        "Stress-testing explanation models to ensure safe, confident, and defensible outputs for end-users and stakeholders in high-stakes domains."
+      ]
+    },
+    {
+      "name": "Global Frontier Lab",
+      "position": "Research Collaborator",
+      "location": "Daejeon, South Korea",
+      "startDate": "2025-09-01",
+      "endDate": "2025-12-31",
+      "summary": "",
+      "highlights": [
+        "Collaborated with Julia Stoyanovich's Responsible AI group at NYU.",
+        "Investigated the sensitivity and robustness of AI explainability techniques to deliver safe, confident explanations to stakeholders."
+      ]
+    },
+    {
+      "name": "Naver",
+      "position": "Research Intern",
+      "location": "Seongnam, South Korea",
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-31",
+      "summary": "",
+      "highlights": [
+        "Implemented community detection (Girvan–Newman) on PySpark to cluster unsupervised data for video recommendation."
+      ]
+    },
+    {
+      "name": "Kiswe Mobile",
+      "position": "Software Engineering Intern",
+      "location": "Murray Hill, NJ, USA",
+      "startDate": "2018-06-01",
+      "endDate": "2018-08-31",
+      "summary": "",
+      "highlights": [
+        "Built Android features for a live video-streaming service using Android Studio.",
+        "Updated the application to meet Android Oreo (8.0+) requirements."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "KAIST",
+      "location": "Daejeon, South Korea",
+      "area": "Electrical Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2021-09-01",
+      "endDate": "2026-08-31",
+      "courses": [
+        "Advisor: Steven Euijong Whang (Data Intelligence Lab)",
+        "Dissertation: Enhancing Explainability in Machine Learning — Explainable Clustering and Explanation Multiplicity"
+      ]
+    },
+    {
+      "institution": "KAIST",
+      "location": "Daejeon, South Korea",
+      "area": "Electrical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2019-09-01",
+      "endDate": "2021-08-31"
+    },
+    {
+      "institution": "KAIST",
+      "location": "Daejeon, South Korea",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "2019-08-31"
+    },
+    {
+      "institution": "Langley High School",
+      "location": "Fairfax County, VA, USA",
+      "studyType": "High School Diploma",
+      "startDate": "2010-09-01",
+      "endDate": "2013-06-30"
+    }
+  ],
+  "publications": [
+    {
+      "name": "SHAP-based Explanations are Sensitive to Feature Representation",
+      "publisher": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+      "releaseDate": "2025-06-23",
+      "url": "https://dl.acm.org/doi/full/10.1145/3715275.3732105",
+      "summary": "With A. Bell, J. Fonseca, V. Pliatsika, J. Stoyanovich, and S. E. Whang. Shows that routine data-engineering choices can manipulate SHAP feature importance for the same model, with direct implications for model risk and fair lending."
+    },
+    {
+      "name": "XClusters: Explainability-first Clustering",
+      "publisher": "AAAI Conference on Artificial Intelligence (AAAI)",
+      "releaseDate": "2023-06-26",
+      "url": "https://arxiv.org/abs/2209.10956",
+      "summary": "With S. E. Whang. Makes explainability a first-class objective of clustering via a difference-of-monotonic-functions formulation; evaluated on a real credit-card dataset."
+    },
+    {
+      "name": "Open-World COVID-19 Data Visualization",
+      "publisher": "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)",
+      "releaseDate": "2021-03-04",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-71055-2_8",
+      "summary": "With S. E. Whang. On the difficulty of producing useful visualizations in an open-world setting where the relevant datasets are not known in advance."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Research",
+      "keywords": [
+        "Explainable AI (XAI)",
+        "SHAP / feature attribution",
+        "Explanation multiplicity and robustness",
+        "Fairness and responsible AI",
+        "Explainable clustering"
+      ]
+    },
+    {
+      "name": "Technical",
+      "keywords": [
+        "Python",
+        "PySpark",
+        "Machine learning",
+        "Data visualization"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ]
+}
