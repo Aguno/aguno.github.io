@@ -76,18 +76,46 @@ cv:
           - "Built Android features for a live video-streaming service using Android Studio."
           - "Updated the application to meet Android Oreo (8.0+) requirements."
 
+    Publications:
+      - title: "SHAP-based Explanations are Sensitive to Feature Representation"
+        authors:
+          - Hyunseung Hwang
+          - Andrew Bell
+          - Joao Fonseca
+          - Venetia Pliatsika
+          - Julia Stoyanovich
+          - Steven Euijong Whang
+        journal: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)"
+        date: '2025-06-23'
+        doi: 10.1145/3715275.3732105
+        summary: "Routine data-engineering choices can manipulate SHAP feature importance for the same model — implications for model risk and fair lending."
+
+      - title: "XClusters: Explainability-first Clustering"
+        authors:
+          - Hyunseung Hwang
+          - Steven Euijong Whang
+        journal: "AAAI Conference on Artificial Intelligence (AAAI)"
+        date: '2023-06-26'
+        url: https://arxiv.org/abs/2209.10956
+        summary: "Makes explainability a first-class objective of clustering; evaluated on a real credit-card dataset."
+
+      - title: "Open-World COVID-19 Data Visualization"
+        authors:
+          - Hyunseung Hwang
+          - Steven Euijong Whang
+        journal: "VLDB Workshop on Data Management and Analytics for Medicine and Healthcare (DMAH)"
+        date: '2021-03-04'
+        doi: 10.1007/978-3-030-71055-2_8
+        summary: "On producing useful visualizations in an open-world setting where the relevant datasets aren't known in advance."
+
     Skills:
       - label: Research
-        name: Research
-        details: "Explainable AI (XAI), SHAP / feature attribution, Explanation multiplicity and robustness, Fairness and responsible AI, Explainable clustering"
+        details: "Explainable AI (XAI), SHAP / feature attribution, explanation multiplicity and robustness, fairness and responsible AI, explainable clustering"
       - label: Technical
-        name: Technical
-        details: "Python, PySpark, Machine learning, Data visualization"
+        details: "Python, PySpark, machine learning, data visualization"
 
     Languages:
       - label: Korean
-        name: Korean
         details: Native speaker
       - label: English
-        name: English
         details: Fluent
