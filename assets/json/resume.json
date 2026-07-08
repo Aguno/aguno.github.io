@@ -45,13 +45,13 @@
     },
     {
       "name": "Global Frontier Lab",
-      "position": "Research Collaborator",
-      "location": "Daejeon, South Korea",
+      "position": "Visiting Scholar",
+      "location": "Brooklyn, NY, USA",
       "startDate": "2025-09-01",
       "endDate": "2025-12-31",
       "summary": "",
       "highlights": [
-        "Collaborated with Julia Stoyanovich's Responsible AI group at NYU.",
+        "Collaborated with Julia Stoyanovich's Center for Responsible AI group at NYU.",
         "Investigated the sensitivity and robustness of AI explainability techniques to deliver safe, confident explanations to stakeholders."
       ]
     },
