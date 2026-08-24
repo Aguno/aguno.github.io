@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-08-24'
 papers:
   awq98_YAAAAJ:2osOgNQ5qMEC:
-    citations: 23
-    title: Shap-based explanations are sensitive to feature representation
+    citations: 22
+    title: SHAP-based explanations are sensitive to feature representation
     year: '2025'
   awq98_YAAAAJ:d1gkVwhDpl0C:
-    citations: 14
+    citations: 15
     title: 'Xclusters: explainability-first clustering'
     year: '2023'
   awq98_YAAAAJ:qjMakFHDy7sC:
-    citations: 3
+    citations: 8
     title: 'Explanation Multiplicity in SHAP: Characterization and Assessment'
     year: '2026'
   awq98_YAAAAJ:u5HHmVD_uO8C:
